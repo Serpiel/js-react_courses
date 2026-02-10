@@ -4,10 +4,16 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const products = [
+  { id: 1, name: 'Orange', description: 'Long live vitamins', price: 2 },
+  { id: 2, name: 'Chocolate', description: 'The black one', price: 4 },
+  { id: 3, name: 'Lentils', description: 'Good for mood', price: 1.5 }
+];
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App name="Serpiel"/>
+    <App products={products} />
   </React.StrictMode>
 );
 // If you want to start measuring performance in your app, pass a function

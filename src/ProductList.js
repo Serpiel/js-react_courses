@@ -1,21 +1,18 @@
 import ProductPreview from "./ProductPreview";
+import './ProductList.css';
 
-function ProductList() {
+function ProductList(props) {
     return (
-        <div>
+        <div className="ProductList">
             <h2>Product List</h2>
-            <ProductPreview 
-                name="Orange"
-                description="Long live vitamins"
-            />
-            <ProductPreview 
-                name="Lentils"
-                description="Good for the mood"
-            />
-            <ProductPreview 
-                name="Chocolate"
-                description="The black one"
-            />
+            {props.products.map((product) => (
+                <ProductPreview 
+                    key={product.id} 
+                    name={product.name}
+                    price={product.price} 
+                    description={product.description} 
+                />
+            ))}
         </div>
     );
 }

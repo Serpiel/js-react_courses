@@ -7,7 +7,8 @@ function App(props) {
   return (
     <div className="App">
       <Title />
-      <ProductList />
+      <h1>Shop section</h1>
+      <ProductList products={props.products} />
     </div>
   );
 }
