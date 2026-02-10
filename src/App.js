@@ -3,13 +3,13 @@ import './App.css';
 import './Title';
 import Title from './Title';
 
-function App() {
+function App(props) {
+  console.log(props);
   return (
     <div className="App">
       <Title />
-      <h1>Hello React!</h1>
+      <h1>Hello {props.name}</h1>
     </div>
   );
 }
-
 export default App;
