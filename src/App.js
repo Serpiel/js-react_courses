@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import './Title';
 import Title from './Title';
+import ProductDetail from './ProductDetail';
 
 function App(props) {
   console.log(props);
@@ -9,6 +9,12 @@ function App(props) {
     <div className="App">
       <Title />
       <h1>Hello {props.name}</h1>
+      <ProductDetail
+          name="chocolate"
+          price="5"
+          description="good black chocolate"
+          quantity="5"
+      />
     </div>
   );
 }
