@@ -15,6 +15,16 @@
 # React 1 : Exo 8
 <img width="1190" height="144" alt="image" src="https://github.com/user-attachments/assets/8d020c17-27bc-4ec3-a5d0-e01d0738b746" />
 
+# React 2 : Exo 2
+<img width="1539" height="177" alt="image" src="https://github.com/user-attachments/assets/adf68339-5e97-487a-ae4a-92371074f341" />
+
+# React 2 : Exo 4
+<img width="1223" height="144" alt="image" src="https://github.com/user-attachments/assets/7f4e3f40-9998-4717-ac1e-386266f27c20" />
+
+# React 2 : Exo 9
+<img width="1330" height="185" alt="image" src="https://github.com/user-attachments/assets/1b2417d3-fedb-4bdb-bb3b-e8f5b237d9fd" />
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
