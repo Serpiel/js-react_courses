@@ -24,6 +24,9 @@
 # React 2 : Exo 9
 <img width="1330" height="185" alt="image" src="https://github.com/user-attachments/assets/1b2417d3-fedb-4bdb-bb3b-e8f5b237d9fd" />
 
+# React 2 : Exo 10
+<img width="1525" height="399" alt="image" src="https://github.com/user-attachments/assets/0fa265ee-56d2-45d5-9316-3ccedf1bad15" />
+
 
 # Getting Started with Create React App
 
