@@ -1,3 +1,12 @@
+## Exercices of React
+
+# React 1 : Exo 3
+<img width="1329" height="189" alt="image" src="https://github.com/user-attachments/assets/9156f82f-e674-482d-9a4e-f5d25544d4e5" />
+
+# React 1 : Exo 4
+<img width="1157" height="154" alt="image" src="https://github.com/user-attachments/assets/182965eb-ec48-4e5b-8376-6a501c2a6448" />
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
