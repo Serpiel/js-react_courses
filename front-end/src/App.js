@@ -8,7 +8,7 @@ function App(props) {
     <div className="App">
       <Title />
       <h1>Shop section</h1>
-      <ProductList products={props.products} />
+      <ProductList />
     </div>
   );
 }
