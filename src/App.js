@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import Title from './Title';
 import ProductDetail from './ProductDetail';
+import Majeur from './Majeur';
 
 function App(props) {
   console.log(props);
@@ -9,6 +10,7 @@ function App(props) {
     <div className="App">
       <Title />
       <h1>Hello {props.name}</h1>
+      <Majeur age="20" />
       <ProductDetail
           name="chocolate"
           price="5"
