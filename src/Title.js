@@ -3,7 +3,7 @@ import './Title.css';
 function Title() {
     return (
         <div className="Title">
-            <h1>ceci est un titre</h1>
+            <h1>E-commerce website</h1>
         </div>
     );
 }
