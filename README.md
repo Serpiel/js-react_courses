@@ -6,6 +6,8 @@
 # React 1 : Exo 4
 <img width="1157" height="154" alt="image" src="https://github.com/user-attachments/assets/182965eb-ec48-4e5b-8376-6a501c2a6448" />
 
+# React 1 : Exo 6
+<img width="1484" height="198" alt="image" src="https://github.com/user-attachments/assets/3dcf1dc1-898f-4ad7-8424-30e17b4c476c" />
 
 # Getting Started with Create React App
 
