@@ -7,6 +7,8 @@ class ProductPreview extends Component {
         this.state = { compteur: 0 };
     }
 
+// React 3 : Exo 4 : Cycle de vie d'un composant - Mount, Update, Unmount (spam notifications, remove comments for tests)
+/*  
     componentDidMount() {
         alert("the component was just displayed (Monté)");
     }
@@ -22,6 +24,7 @@ class ProductPreview extends Component {
     handleClick = () => {
         this.setState({ compteur: this.state.compteur + 1 });
     }
+*/
 
     render() {
         return (
