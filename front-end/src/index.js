@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Profiler from './Profiler';
 
 const products = [
   { id: 1, name: 'Orange', description: 'Long live vitamins', price: 2 },
@@ -13,7 +14,9 @@ const products = [
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <Profiler>
     <App products={products} />
+    </Profiler>
   </React.StrictMode>
 );
 // If you want to start measuring performance in your app, pass a function
