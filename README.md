@@ -36,6 +36,9 @@
 # React 3 : Exo 4
 <img width="1481" height="140" alt="image" src="https://github.com/user-attachments/assets/c421fe0f-8425-4a66-a4f0-3b8002134b62" />
 
+# React 3 : Exo 7
+<img width="1513" height="116" alt="image" src="https://github.com/user-attachments/assets/14d195a0-7eb8-4aaa-a39b-728e0d2e927e" />
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
