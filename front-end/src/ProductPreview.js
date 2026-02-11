@@ -38,10 +38,11 @@ class ProductPreview extends Component {
                 <h3>{this.props.name}</h3>
                 <p><strong>{this.props.price} €</strong></p>
                 <p>{this.props.description}</p>
-                
+                {/*
                 <button onClick={this.handleClick}>
                     Clique-moi (Test Update) : {this.state.compteur}
                 </button>
+                */}
             </div> 
         );
     }

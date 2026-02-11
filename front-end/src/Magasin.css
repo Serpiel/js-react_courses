@@ -1,15 +1,15 @@
-.ProductList {
-    display: flex;        
+.shop-infos {        
     justify-content: center; 
     flex-wrap: wrap;      
-    gap: 20px;            
+    gap: 20px;
+    text-align: center;
+    display: inline;   
 }
 
-.ProductPreview {
+.clock {
     border: 1px solid #ccc;
     border-radius: 10px;
     padding: 15px;
-    width: 200px; 
+    width: 200px;
     box-shadow: 0 4px 8px rgba(0,0,0,0.1); 
-    text-align: center; 
 }

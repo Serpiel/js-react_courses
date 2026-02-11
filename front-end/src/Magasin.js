@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from 'react';
+import './Magasin.css';
+
 function Shop() {
     const [date, setDate] = useState(new Date());
     useEffect(() => {
@@ -14,11 +16,11 @@ function Shop() {
 
     const isOpen = hour >= 9 && hour < 18;
     return (
-        <div>
+        <div class="shop-infos">
             <h1>Welcome to our Shop!</h1>
-
-            <p>Current hour: {hour}h{minute}:{second}</p>
-            
+            <div className="clock">
+                <p>Current hour: {hour}h{minute}:{second}</p>
+            </div>
             <p>{isOpen ? "We are open!" : "Sorry, we are closed."}</p>
         </div>
     );
