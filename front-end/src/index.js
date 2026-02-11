@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-import Profiler from './Profiler';
+import './styles/index.css';
+import App from './components/layouts/App';
+import reportWebVitals from './components/features/reportWebVitals';
+import Profiler from './components/features/Profiler';
 
 const products = [
   { id: 1, name: 'Orange', description: 'Long live vitamins', price: 2 },
